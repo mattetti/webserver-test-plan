@@ -184,7 +184,7 @@
           </HTTPSampler>
           <hashTree/>
         </hashTree>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Uploads" enabled="true">
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Uploads" enabled="false">
           <boolProp name="LoopController.continue_forever">true</boolProp>
           <stringProp name="LoopController.loops">2</stringProp>
         </LoopController>

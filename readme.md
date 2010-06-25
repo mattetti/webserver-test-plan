@@ -14,7 +14,7 @@ The test plan is JMeter test plan. JMeter is vendored in this repo so you just t
 
 To open JMeter you can do it manually:
 
-    $ JVM_ARGS="-Xms512m -Xmx512m" jmeter/bin/jmeter -t hello_world.jmx
+    $ JVM_ARGS="-Xms512m -Xmx512m" jmeter/bin/jmeter -t control_tower.jmx
 
 Or just use the shortcut:
 

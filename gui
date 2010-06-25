@@ -2,8 +2,7 @@
 
 puts "Don't forget to start the webserver:"
 puts "$ control_tower start config.ru"
-puts "ControlTower will be available on port 8080"
 puts "\n\n Starting JMeter"
 
 here = File.expand_path(File.dirname(__FILE__))
-`JVM_ARGS="-Xms512m -Xmx512m" #{here}/jmeter/bin/jmeter -t hello_world.jmx`
+`JVM_ARGS="-Xms512m -Xmx512m" #{here}/jmeter/bin/jmeter -t control_tower.jmx`

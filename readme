@@ -1,0 +1,9 @@
+== How to start the server:
+
+$ control_tower start config.ru
+
+The server now runs on localhost:8080
+
+== Benchmark
+
+$ JVM_ARGS="-Xms512m -Xmx512m" jmeter/bin/jmeter -t hello_world.jmx

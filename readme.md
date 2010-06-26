@@ -33,3 +33,7 @@ Results are available in the View Results Tree section
 3. Request default settings are available in the HTTP Request Defaults Section.
 
 4. The amount of threads (simultaneous connections) can be changed in the Thread Group.
+
+5. You also don't need the GUI, you can run the test from the command line:
+  
+    $ jmeter/bin/jmeter -n -t control_tower.jmx

@@ -18,7 +18,7 @@ To open JMeter you can do it manually:
 
 Or just use the shortcut:
 
-    $ ./gui
+    $ ./gui_ct
 
 ## JMeter
 

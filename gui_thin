@@ -1,0 +1,8 @@
+#! /usr/bin/ruby
+
+puts "Don't forget to start the webserver:"
+puts "$ thin start -R config.ru"
+puts "\n\n Starting JMeter"
+
+here = File.expand_path(File.dirname(__FILE__))
+`JVM_ARGS="-Xms512m -Xmx512m" #{here}/jmeter/bin/jmeter -t thin.jmx`
